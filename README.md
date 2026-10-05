@@ -21,9 +21,8 @@ In your authorized test environment, open **Settings → Skills** and add a sour
 - Repository: `https://github.com/apelsito/process-studio-byos-examples`
 - Branch: `main`
 - Skills folder: `skills`
-- Public repository: use the product's public-source option; no token is needed
-  by this repository. If the running version requires one, that is an application
-  requirement, not a secret shipped with these examples.
+- Public repository: the PAT field becomes optional after entering this GitHub
+  URL. Anonymous connection was verified; no token is shipped in the repository.
 
 Wait for synchronization and security/dependency checks. Confirm that all five
 skills are visible, enabled and eligible for execution. Assign them to a test
@@ -71,6 +70,13 @@ Run all five example commands listed in [docs/e2e.md](docs/e2e.md).
 Local validation proves script behavior and package structure. It does not
 establish successful source scan, project assignment, live Lambda execution,
 chat persistence, downloads or QA acceptance in any Process Studio environment.
+
+The example source was imported anonymously in a test environment on
+2026-10-05. All five skills were enabled with `passed_with_warnings`, and their
+project assignments survived readback. The scanner warned that file reads need
+the generic `Read` tool; these skills declare the host-specific `read_skill_file`
+and `read_temp_file` tools. Do not add an unsupported tool name or weaken the
+scanner to suppress that warning. Live script execution remains a separate gate.
 
 MIT licensed. Example reports support human review; supplied evidence is not
 independently verified and no workflow or approval is executed.
