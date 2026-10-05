@@ -13,4 +13,3 @@ Target is achieved for `current <= target` (lower), or `current >= target`
 
 The output is a self-contained HTML file. Values and sources are escaped as
 text. It does not query or modify a Process Studio project.
-

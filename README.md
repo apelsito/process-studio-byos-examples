@@ -74,4 +74,3 @@ chat persistence, downloads or QA acceptance in any Process Studio environment.
 
 MIT licensed. Example reports support human review; supplied evidence is not
 independently verified and no workflow or approval is executed.
-

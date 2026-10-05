@@ -28,4 +28,3 @@ Highlight missing owners, missing controls, proposed controls and missing eviden
 For a demonstration use [assets/example.json](assets/example.json) and preserve
 the synthetic label. This is a standard-library Python report generator; it
 neither queries external systems nor changes approvals or configuration.
-

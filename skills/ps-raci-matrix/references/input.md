@@ -14,4 +14,3 @@ columns have a `Role: ` prefix to avoid ambiguous header names.
 
 CSV cells beginning with a spreadsheet formula prefix are prefixed with an
 apostrophe so opening a supplied name as a spreadsheet does not execute it.
-

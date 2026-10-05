@@ -6,4 +6,3 @@
     {"id":"R3","step":"Notify requester","risk":"Notification not delivered","likelihood":null,"impact":2,"owner":"Operations","source":"Synthetic workshop","controls":[{"name":"Delivery monitor","status":"implemented","evidence":null}]}
   ]
 }
-

@@ -12,4 +12,3 @@ controls remain gaps even if a design document is supplied.
 Score = likelihood * impact. Review priority: 15..25 High, 6..14 Medium, 1..5
 Low, null Unknown. This is a simple ordinal triage scale, not a residual-risk
 model, certification or quantitative probability estimate.
-

@@ -1,2 +1,1 @@
 {"scripts":{"build_bpmn.py":{"arguments":{"--input":{"type":"input_path","required":true},"--output":{"type":"output_path","required":true}}}}}
-

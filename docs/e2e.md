@@ -46,4 +46,3 @@ Record pass/fail/blocked per step, with observed evidence. ArgoCD Healthy proves
 rollout health, not runtime correctness. If an import or runtime dependency fails,
 retain that exact failure and stop the dependent steps. Synthetic test artifacts
 may remain in the test project for review; do not silently delete user data.
-

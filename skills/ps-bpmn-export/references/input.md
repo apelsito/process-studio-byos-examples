@@ -18,4 +18,3 @@ Conditions are design text, not executable expressions.
 Output XML has BPMN 2.0 namespaces, `isExecutable=false`, documentation,
 sequence-flow references and BPMN DI shapes/edges. Graph connectivity and these
 structural checks are not a full BPMN engine or formal soundness validation.
-

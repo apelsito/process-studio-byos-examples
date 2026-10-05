@@ -29,4 +29,3 @@ These are review findings, not changes to project membership or permissions.
 For a demo, use [assets/example.json](assets/example.json); it deliberately
 contains an ownership gap and remains visibly synthetic. The script requires
 only Python's standard library and does not access external systems.
-

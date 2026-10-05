@@ -8,4 +8,3 @@
     {"id":"cost","name":"Cost per approval","unit":"EUR","direction":"lower","baseline":null,"current":null,"target":5,"source":"Not measured in this example"}
   ]
 }
-

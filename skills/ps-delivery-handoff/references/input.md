@@ -14,4 +14,3 @@ evidence, blocker, next action. The table escapes pipe characters and line
 breaks. An additional verification-gaps section flags missing evidence and
 unknown layers without promoting the claim. No item is automatically advanced
 to another layer. Names must describe roles when publishing synthetic examples.
-

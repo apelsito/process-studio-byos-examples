@@ -34,4 +34,3 @@ baseline zero makes percentage change unavailable. Target status compares
 current to target and does not assert statistical significance or causality.
 For a demonstration only, load [assets/example.json](assets/example.json) and
 keep the synthetic-data label visible.
-

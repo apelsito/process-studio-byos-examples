@@ -31,4 +31,3 @@ non-executable design export: it does not deploy a workflow, connect tasks to
 services or prove absence of deadlocks. For a demo, use
 [assets/example.json](assets/example.json) and keep its synthetic label.
 The script uses Python's standard library only.
-

@@ -34,4 +34,3 @@ requested; preserve evidence references. The script only formats supplied
 claims and flags evidence gaps. It does not retrieve live status or send the
 handoff. For a demo use [assets/example.json](assets/example.json), retaining
 its synthetic-data label. Python standard library only.
-
