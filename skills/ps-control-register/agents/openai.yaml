@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process Control Register"
+  short_description: "Prioritize risks and expose control evidence gaps"
+  default_prompt: "Use $ps-control-register to build the bundled synthetic risk register."

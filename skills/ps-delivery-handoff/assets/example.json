@@ -1,0 +1,9 @@
+{
+  "project":"Synthetic order approval", "scope":"Export the process design and review ownership before a pilot", "as_of":"Example review date", "synthetic":true,
+  "items":[
+    {"id":"D1","deliverable":"BPMN design export","layer":"locally_verified","owner":"Process designer","evidence":["Synthetic fixture: XML parses and graph checks pass"],"blocker":null,"next_action":"Review branch conditions with the process owner"},
+    {"id":"D2","deliverable":"Human approval gate","layer":"implemented","owner":"Engineering owner","evidence":["Synthetic implementation note"],"blocker":"No runtime trace or acceptance supplied","next_action":"Run a synthetic approval scenario and retain the result"},
+    {"id":"D3","deliverable":"Operational control evidence","layer":"unknown","owner":"Operations owner","evidence":[],"blocker":"Evidence unavailable","next_action":"Provide the monitor result and reporting period"}
+  ]
+}
+

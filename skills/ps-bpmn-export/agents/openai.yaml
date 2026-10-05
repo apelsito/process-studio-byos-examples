@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process BPMN Export"
+  short_description: "Export an editable BPMN design with branch conditions"
+  default_prompt: "Use $ps-bpmn-export to export the bundled synthetic process graph."

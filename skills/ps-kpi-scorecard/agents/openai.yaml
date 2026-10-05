@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process KPI Scorecard"
+  short_description: "Compare process KPIs and preserve unknown measurements"
+  default_prompt: "Use $ps-kpi-scorecard to create a scorecard from the bundled synthetic example."

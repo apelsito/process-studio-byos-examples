@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process RACI Matrix"
+  short_description: "Export role ownership and flag accountability gaps"
+  default_prompt: "Use $ps-raci-matrix to export the bundled synthetic RACI example."

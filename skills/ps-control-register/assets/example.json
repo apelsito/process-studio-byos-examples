@@ -1,0 +1,9 @@
+{
+  "process":"Synthetic order approval", "synthetic":true,
+  "risks":[
+    {"id":"R1","step":"Approve order","risk":"Approval beyond delegated authority","likelihood":4,"impact":5,"owner":"Finance owner","source":"Synthetic workshop","controls":[{"name":"Human approval above limit","status":"proposed","evidence":"Proposed blueprint gate"}]},
+    {"id":"R2","step":"Validate order","risk":"Incomplete order data","likelihood":2,"impact":3,"owner":null,"source":"Synthetic workshop","controls":[]},
+    {"id":"R3","step":"Notify requester","risk":"Notification not delivered","likelihood":null,"impact":2,"owner":"Operations","source":"Synthetic workshop","controls":[{"name":"Delivery monitor","status":"implemented","evidence":null}]}
+  ]
+}
+

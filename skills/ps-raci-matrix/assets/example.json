@@ -1,0 +1,9 @@
+{
+  "process":"Synthetic order approval", "synthetic":true,
+  "roles":["Requester","Approval agent","Finance owner"],
+  "activities":[
+    {"id":"validate","name":"Validate order","source":"Synthetic blueprint step 1","assignments":{"Requester":"C","Approval agent":"R","Finance owner":"A"}},
+    {"id":"exception","name":"Review exception","source":"Synthetic blueprint step 2","assignments":{"Requester":"I","Approval agent":"R"}}
+  ]
+}
+

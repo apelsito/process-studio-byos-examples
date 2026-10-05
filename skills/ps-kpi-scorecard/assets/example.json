@@ -1,0 +1,11 @@
+{
+  "process": "Synthetic order approval",
+  "period": "Example week",
+  "synthetic": true,
+  "metrics": [
+    {"id":"cycle","name":"Approval cycle time","unit":"hours","direction":"lower","baseline":48,"current":30,"target":24,"source":"Synthetic workshop fixture"},
+    {"id":"accuracy","name":"First-time-right approvals","unit":"%","direction":"higher","baseline":80,"current":92,"target":90,"source":"Synthetic workshop fixture"},
+    {"id":"cost","name":"Cost per approval","unit":"EUR","direction":"lower","baseline":null,"current":null,"target":5,"source":"Not measured in this example"}
+  ]
+}
+

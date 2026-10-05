@@ -1,0 +1,18 @@
+{
+  "id":"order_approval", "process":"Synthetic order approval", "synthetic":true, "source":"Synthetic process workshop",
+  "nodes":[
+    {"id":"start","name":"Order received","type":"startEvent"},
+    {"id":"validate","name":"Validate order","type":"serviceTask"},
+    {"id":"decision","name":"Within delegated limit?","type":"exclusiveGateway"},
+    {"id":"approve","name":"Approve exception","type":"userTask"},
+    {"id":"end","name":"Approved","type":"endEvent"}
+  ],
+  "flows":[
+    {"id":"f1","source":"start","target":"validate"},
+    {"id":"f2","source":"validate","target":"decision"},
+    {"id":"f3","source":"decision","target":"end","name":"Yes","condition":"Order is within delegated limit"},
+    {"id":"f4","source":"decision","target":"approve","name":"No","condition":"Order exceeds delegated limit"},
+    {"id":"f5","source":"approve","target":"end"}
+  ]
+}
+

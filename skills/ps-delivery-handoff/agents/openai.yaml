@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process Delivery Handoff"
+  short_description: "Summarize evidence, blockers and concrete next actions"
+  default_prompt: "Use $ps-delivery-handoff to generate the bundled synthetic handoff."
